@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{int a,b,gratest;
+cout<<"Enter the two numbers:"<<endl;
+cin>>a>>b;
+gratest=a>b?a:b;
+cout<<"the greatest number is:"<<gratest;
+return 0;
+}
